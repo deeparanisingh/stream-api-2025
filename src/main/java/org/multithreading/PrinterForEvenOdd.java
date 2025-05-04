@@ -19,7 +19,6 @@ public class PrinterForEvenOdd {
             }
         }
     }
-
     public synchronized void printEven(){
         while (counter<=MAX){
             if(counter%2==0){
