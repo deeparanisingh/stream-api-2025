@@ -1,5 +1,14 @@
 package org.multithreading;
+/*
+*
+*
+Print Even and Odd Numbers using Two Threads
+Problem: Thread A prints even numbers, Thread B prints odd numbers — print from 1 to N alternately.
 
+Focus: wait() / notify() or Lock and Condition
+*
+*
+ */
 public class PrinterForEvenOdd {
     private int counter = 1;
     private final int MAX = 10;
